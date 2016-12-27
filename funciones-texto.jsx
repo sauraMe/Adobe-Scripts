@@ -1,0 +1,1 @@
+﻿/*    Intento de externalizar las funciones    */function SinExtension( cName ) {	return txtCorta( cName, "." );}/*  */function txtCorta( cName, cTag ) {   var i =1;   var nLong = cName.length;   var cText = cName.substr(i,1);   while ((i < nLong) && (cText != cTag ))   {    i++;    cText = cName.substr(i,1);   }   return cName.substr( 0, i );}
