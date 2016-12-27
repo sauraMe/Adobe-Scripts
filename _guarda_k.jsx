@@ -1,12 +1,14 @@
 /* 	guarda_k.js  /	Guión para Photoshop
+	https://github.com/sauraMe/Adobe-Scripts
 	========================================
-	Guarda el documento en .jpg añadiendo un prefijo (la letra k en este caso)
+	Guarda el documento en .jpg añadiendo un prefijo que indica la calidad de compresión
+	a = 10, 8 = 0, c = 12
 	y un sufijo que indica el tamaño de impresión en centímetros
-	Soporte: ppsaura (tfno: 968.126.129) 
 */
 //	Variables a personalizar *****************************************
 
-	var prefijo = "k";
+
+	var prefijo = "c";
 	var comoCopia = false;
 
 //	Inicio del script ************************************************
